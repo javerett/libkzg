@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A minimal KZG polynominal commitment library with a Solidity verifier",
   "main": "build/index.js",
+  "types": "ts/index.d.ts",
   "scripts": {
     "watch": "tsc --watch",
     "build": "tsc",
