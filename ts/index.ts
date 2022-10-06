@@ -240,6 +240,10 @@ const genMultiProof = (
     indices: number[] | bigint[],
     p: bigint = FIELD_SIZE,
 ): MultiProof => {
+    while(coefficients.length <= indices.length) {
+        coefficients.push(BigInt(0))
+    }
+
     const field = galois.createPrimeField(p)
     const poly = field.newVectorFrom(coefficients)
 
