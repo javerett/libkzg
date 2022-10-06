@@ -29,8 +29,8 @@ const genBabyJubField = () => {
     return galois.createPrimeField(FIELD_SIZE)
 }
 
-const srsg1DataRaw = require('@libkzg/taug1_65536.json')
-const srsg2DataRaw = require('@libkzg/taug2_65536.json')
+const srsg1DataRaw = require('../taug1_65536.json')
+const srsg2DataRaw = require('../taug2_65536.json')
 
 /*
  * @return Up to 65536 G1 values of the structured reference string.
