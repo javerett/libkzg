@@ -1,4 +1,3 @@
-require('module-alias/register')
 import * as assert from 'assert'
 import * as galois from '@guildofweavers/galois'
 import * as bn128 from 'rustbn.js'
